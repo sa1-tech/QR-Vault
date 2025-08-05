@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Theme Colors -->
+    <color name="primary">#2196F3</color>           <!-- Blue 500 -->
+    <color name="primaryDark">#1976D2</color>       <!-- Blue 700 -->
+    <color name="accent">#FF4081</color>            <!-- Pink A200 -->
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="background">#FFFFFF</color>        <!-- App background -->
+    <color name="cardBackground">#FAFAFA</color>    <!-- Card surfaces -->
+    <color name="white">#FFFFFF</color>           <!-- Material surface -->
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#212121</color>       <!-- High emphasis text -->
+    <color name="textSecondary">#757575</color>     <!-- Medium emphasis text -->
+    <color name="textDisabled">#BDBDBD</color>      <!-- Disabled text -->
+
+    <!-- Button & Icon Colors -->
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="iconTint">#424242</color>          <!-- Default icon tint -->
+
+    <!-- Error & Status -->
+    <color name="error">#D32F2F</color>
+    <color name="success">#388E3C</color>
+    <color name="warning">#FFA000</color>
+    <color name="info">#1976D2</color>
+
+    <!-- Divider & Border -->
+    <color name="divider">#E0E0E0</color>
+    <color name="border">#DDDDDD</color>
+
+    <!-- Ripple & Overlay -->
+    <color name="ripple">#1F000000</color>
+    <color name="overlayLight">#66FFFFFF</color>
+    <color name="overlayDark">#66000000</color>
+<color name="card_background">#FAFAFA</color>
+<color name="black">#121212</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_cardBackground">#1E1E1E</color>
+    <color name="dark_textPrimary">#FFFFFF</color>
+    <color name="dark_textSecondary">#B0B0B0</color>
+     <color name="design_default_color_primary">#6200EE</color>
+    <color name="design_default_color_primary_dark">#3700B3</color>
+    <color name="design_default_color_on_primary">#FFFFFF</color>
+
+
+    <color name="primaryLight">#C5CAE9</color>
+<color name="primaryText">#212121</color>
+
+    <color name="md_theme_outline">#DDDDDD</color>
+
+</resources>

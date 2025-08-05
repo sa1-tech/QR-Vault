@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_onboarding"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- Shadowed Image/Icon -->
+    <ImageView
+        android:id="@+id/onboardingImage"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bg_circle_image"
+        android:contentDescription="Onboarding Image"
+        android:elevation="8dp"
+        android:padding="24dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/qr" />
+
+    <!-- Onboarding Title -->
+    <TextView
+        android:id="@+id/onboardingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="6dp"
+        android:text="Welcome to QRVault"
+        android:textAlignment="center"
+        android:textColor="#FF234F"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Onboarding Description -->
+    <TextView
+        android:id="@+id/onboardingDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="8dp"
+        android:text="Securely store and manage your QR codes with intelligent tools, dark mode, and privacy features."
+        android:textAlignment="center"
+        android:textColor="#E0E0"
+        android:textSize="16sp" />
+
+</LinearLayout>

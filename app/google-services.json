@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566475126409",
+    "project_id": "qrvault-cc218",
+    "storage_bucket": "qrvault-cc218.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566475126409:android:2023efe42b490250833858",
+        "android_client_info": {
+          "package_name": "com.qrvault"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbNbmrh7q_vZMUnQEjFh0_24yKkW46eZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

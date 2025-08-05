@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- ✅ Base theme with Material3 and DayNight support -->
+    <style name="Base.Theme.QRVault" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- ✅ Primary branding colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryDark</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:textColorHint">?attr/colorOnSurfaceVariant</item>
+<item name="android:textColor">?attr/colorOnSurface</item>
+
+
+        <!-- ✅ Default text colors -->
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+
+        <!-- ✅ App background -->
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- ✅ Public theme extending the base -->
+    <style name="Theme.QRVault" parent="Base.Theme.QRVault" />
+
+</resources>

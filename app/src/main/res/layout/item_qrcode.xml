@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="5dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="18dp"
+    app:strokeColor="@color/design_default_color_secondary"
+    app:strokeWidth="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="11dp">
+
+        <!-- Top Left Icon -->
+        <ImageView
+            android:id="@+id/ivQRIcon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/qr"
+            android:tint="#FFD54F" />
+
+        <!-- QR Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ivQRIcon"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Website QR"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- QR Content -->
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/ivQRIcon"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="https://github.com/openai/chatgpt"
+            android:textColor="#555555"
+            android:textSize="14sp"
+            android:typeface="monospace" />
+
+        <!-- Timestamp -->
+        <TextView
+            android:id="@+id/tvTimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContent"
+            android:layout_alignStart="@id/tvContent"
+            android:layout_marginTop="8dp"
+            android:text="June 25, 2025 • 3:30 PM"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <!-- Favorite Icon -->
+
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

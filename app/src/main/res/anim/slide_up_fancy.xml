@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/overshoot_interpolator">
+
+    <!-- Fade in -->
+    <alpha
+        android:duration="600"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+
+    <!-- Slide up with bounce -->
+    <translate
+        android:duration="800"
+        android:fromYDelta="100%"
+        android:toYDelta="0%" />
+</set>
